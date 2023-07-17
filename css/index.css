@@ -16,8 +16,7 @@
     letter-spacing: 10px;
 }
 .shadow{
-    box-shadow: -5px 0px 10px -1px rgb(0, 0, 0) inset,5px 0px 20px 5px rgba(39, 1, 12, 0.775)   ;
-
+box-shadow: -10px 0 20px 10px rgb(47, 0, 234);
 }
 .font2{
     font-family: 'rajdhandi',sans-serif;
