@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Rajdhani:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300&family=Poppins:wght@100;200;300;400;500&family=Rajdhani:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0%;
+    margin:0% ;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 5px;
+    border: 0px solid red;
+}
+.bodybg{
+    background-image: url(../images/12151159_4880206.jpg);
+    background-position: 100% 100%;
+}
+.lspacel{
+    letter-spacing: 10px;
+}
+.shadow{
+    box-shadow: -5px 0px 10px -1px rgb(0, 0, 0) inset,5px 0px 20px 5px rgba(39, 1, 12, 0.775)   ;
+
+}
+.font2{
+    font-family: 'rajdhandi',sans-serif;
+}
+body{
+    position: relative;
+}
+.bod{
+    border: 1px dotted blue;
+}
+.nav_efx{
+    transition: box-shadow 2.5s,background 2s;
+    background-color: rgba(255, 200, 218, 0.531);
+    border-bottom: 2px dotted #666;
+}
+.nav_efx:hover{
+    box-shadow: 0px -5px 10px -1px rgb(17, 11, 12) inset,0px 5px 10px -2px rgba(39, 1, 12, 0.775) inset  ;
+   background-color:rgba(109, 152, 216, 0.519); 
+   border: 0px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.sec1bg{
+    background-image: linear-gradient(to right,rgba(10, 4, 11, 0.947),rgba(11, 4, 44, 0.91),rgba(0, 0, 0, 0.69));
+    background-size: cover;
+}
+
+
+@media only screen and (max-width:576px){
+    .lin-efx ul li:hover{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (min-width:576px){
+   .brad{
+    border-bottom-left-radius: 25% ;
+    border-top-right-radius: 25% ;
+   }
+    .lin-efx ul li{
+        transition: transform 1.5s,color 1.8s;
+    }
+    .lin-efx ul li a:hover{
+        box-shadow: 0 0 1px 2px rgb(170, 6, 6) , 0px 0px 30px 1px rgba(47, 7, 222, 0.988) inset; 
+        /* border: 1px solid red; */
+        border-radius:10px;
+        font-weight: 500;
+        font-size: 16px;
+        transform: scale(1.1,1.1);
+        color:white;
+    }
+}
