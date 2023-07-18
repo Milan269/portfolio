@@ -6,7 +6,11 @@
     margin:0% ;
     font-family: 'Alegreya Sans', sans-serif;
     letter-spacing: 5px;
+   
     border: 0px solid red;
+}
+div {
+    cursor: context-menu;
 }
 .bodybg{
     background-image: url(../images/12151159_4880206.jpg);
@@ -16,7 +20,7 @@
     letter-spacing: 10px;
 }
 .shadow{
-box-shadow: -10px 0 20px 10px rgb(47, 0, 234);
+box-shadow: 10px 10px 20px 10px rgb(47, 0, 234),15px 15px 20px 10px rgb(253, 106, 1);
 }
 .font2{
     font-family: 'rajdhandi',sans-serif;
@@ -30,7 +34,7 @@ body{
 .nav_efx{
     transition: box-shadow 2.5s,background 2s;
     background-color: rgba(255, 200, 218, 0.531);
-    border-bottom: 2px dotted #666;
+    border-bottom: 1px solid #666;
 }
 .nav_efx:hover{
     box-shadow: 0px -5px 10px -1px rgb(17, 11, 12) inset,0px 5px 10px -2px rgba(39, 1, 12, 0.775) inset  ;
@@ -50,7 +54,11 @@ body{
     .lin-efx ul li:hover{
         font-size: 16px;
     }
-    
+    .brad{
+        border-bottom-right-radius: 25% ;
+        
+      
+       }
 }
 @media only screen and (min-width:576px){
    .brad{
